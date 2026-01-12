@@ -1,0 +1,15 @@
+# OCR.space API key
+OCR_API_KEY = "YOUR_API_KEY_HERE"
+
+# Tesseract configuration
+OCR_LANGUAGES = "ara+eng"
+OCR_CONFIG = "--oem 3 --psm 6"
+
+# PDF rendering DPI
+OCR_DPI = 300
+
+# Message splitting
+MAX_MESSAGE_LENGTH = 4000
+
+# Image validation
+MAX_IMAGE_SIZE = (5000, 5000)
